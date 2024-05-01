@@ -181,3 +181,67 @@ def convertSMS(second):
 def convertMSS(millisecond):
     second = millisecond / 100
     return second
+
+def convertTKT(tonne):
+    kilotonne = tonne / 1000
+    return kilotonne
+
+def convertKTT(kilotonne):
+    tonne = kilotonne * 1000
+    return tonne
+
+def convertBKB(byte):
+    kilobyte = byte / 1000
+    return kilobyte
+
+def convertKBB(kilobyte):
+    byte = kilobyte * 1000
+    return byte
+
+def convertKBMB(kilobyte):
+    megabyte = kilobyte / 1000
+    return megabyte
+
+def convertMBKB(megabyte):
+    kilobyte = megabyte * 1000
+    return kilobyte
+
+def convertMBGB(megabyte):
+    gigabyte = megabyte / 1000
+    return gigabyte
+
+def convertGBMB(gigabyte):
+    megabyte = gigabyte * 1000
+    return megabyte
+
+def convertGBTB(gigabyte):
+    terrabyte = gigabyte / 1000
+    return terrabyte
+
+def convertTBGB(terrabyte):
+    gigabyte = terrabyte * 1000
+    return gigabyte
+
+def convertYD(year):
+    decade = year / 10
+    return decade
+
+def convertDY(decade):
+    year = decade * 10
+    return year
+
+def convertDC(decade):
+    century = decade / 10
+    return century
+
+def convertCD(century):
+    decade = century * 10
+    return decade
+
+def convertCM(century):
+    millenium = century / 10
+    return millenium
+
+def convertMC(millenium):
+    century = millenium * 10
+    return century
